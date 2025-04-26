@@ -3,7 +3,7 @@ import { Etudiant as BaseEtudiant } from './apiEtudiant';
 import { Salle as BaseSalle } from './apiSalle';
 
 const axiosInstance = axios.create({
-  baseURL: 'https://ec2-13-49-21-175.eu-north-1.compute.amazonaws.com:3000/presences',
+  baseURL: 'http://ec2-13-49-21-175.eu-north-1.compute.amazonaws.com:3000/presences',
   headers: {
     'Content-Type': 'application/json',
     'Accept': 'application/json',

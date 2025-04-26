@@ -10,7 +10,7 @@ export interface Student {
   
   export const fetchStudents = async (): Promise<Student[]> => {
     try {
-      const response = await fetch('https://fe6d-129-0-76-44.ngrok-free.app/students');
+      const response = await fetch('http://ec2-13-49-21-175.eu-north-1.compute.amazonaws.com:3000/students');
       if (!response.ok) throw new Error('Erreur de récupération des données');
       return await response.json();
     } catch (error) {
