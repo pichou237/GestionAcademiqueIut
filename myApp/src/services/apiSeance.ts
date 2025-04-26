@@ -2,7 +2,7 @@
 import axios from 'axios';
 
 // Configuration directe sans variables d'environnement
-const API_BASE_URL = 'https://c14e-129-0-76-156.ngrok-free.app/';
+const API_BASE_URL = 'https://ec2-13-49-21-175.eu-north-1.compute.amazonaws.com:3000/';
 
 export interface Teacher {
   id: string;

@@ -2,7 +2,7 @@
 import axios, { AxiosError, AxiosResponse } from 'axios';
 
 const axiosInstance = axios.create({
-  baseURL: 'https://c14e-129-0-76-156.ngrok-free.app/salles', // Adaptez l'URL
+  baseURL: 'https://ec2-13-49-21-175.eu-north-1.compute.amazonaws.com:3000/salles', // Adaptez l'URL
   headers: {
     'Content-Type': 'application/json',
     'Accept': 'application/json',

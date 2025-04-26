@@ -1,7 +1,7 @@
 import axios, { AxiosError, AxiosResponse } from 'axios';
 
 const axiosInstance = axios.create({
-  baseURL: 'https://votre-api.com/cours',
+  baseURL: 'https://ec2-13-49-21-175.eu-north-1.compute.amazonaws.com:3000/cours',
   headers: {
     'Content-Type': 'application/json',
     'Accept': 'application/json',
